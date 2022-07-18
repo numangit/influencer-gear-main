@@ -107,3 +107,24 @@ hr {
 .sponsers img {
     height: 40px;
 }
+
+/* ===================footer================= */
+footer {
+    text-align: center;
+    padding: 3em 0;
+    background-color: #0A0826;
+    color: white;
+}
+
+.social-icon {}
+
+.fa-instagram,
+.fa-youtube,
+.fa-twitter,
+.fa-basketball {
+    background: #3f3f52;
+    border-radius: 50%;
+    margin-top: 7px;
+    padding: 8px 8px;
+    font-size: 2em;
+}
