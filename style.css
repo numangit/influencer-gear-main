@@ -13,18 +13,21 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* header styles */
+header {
+    margin: 87px 120px;
+}
+
 /* nav style  */
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
-nav h1 {
-    font-size: 1.5em;
+nav h2 {
+    font-size: 2em;
 }
-
-nav .menu {}
 
 nav li,
 .fa-magnifying-glass,
@@ -37,5 +40,70 @@ nav li,
 nav li a {
     text-decoration: none;
     color: black;
-    font-size: 1em;
+    font-size: 1.4em;
+}
+
+/*======================================= home page  */
+.home-page {
+    display: flex;
+    align-items: center;
+}
+
+.home-info {
+    width: 50%;
+}
+
+.home-info h1 {
+    font-size: 4em;
+}
+
+.home-info p {
+    font-size: 1.3em;
+}
+
+.home-img-container {
+    background: url(./images/Circle\ design.svg);
+    margin: auto;
+    background-repeat: no-repeat;
+    padding: 5em;
+}
+
+.home-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-info button {
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    font-size: 1.3em;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 16px;
+}
+
+/* ===================sponsers=========================== */
+
+hr {
+    height: 1px;
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+    background: -o-linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+    background: linear-gradient(left, rgba(0, 0, 0, 0), #333333, rgba(0, 0, 0, 0));
+    border: 0;
+}
+
+.sponsers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 110px;
+    gap: 68px;
+}
+
+.sponsers img {
+    height: 40px;
 }
